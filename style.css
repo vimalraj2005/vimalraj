@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: josefin sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Orange\ Minimalist\ Software\ Developer\ Zoom.jpg);
+    background-size: cover;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+color: white;
+font-size: 50px;
+letter-spacing: 1px;
+cursor: pointer;
+font-weight: 300;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo:hover{
+    text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 25px orangered;
+}
+#o{
+      color: rgb(247, 136, 25);
+}
+nav ul,li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px ;
+
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+    
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ul li a:hover{
+    color: rgb(251, 248, 51);
+    transition: .4s;
+    text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.btn{
+    background-color: rgb(254, 255, 254);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn:hover{
+color: rgb(23, 201, 0);
+    
+ text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 25px rgb(106, 255, 0);
+ transform: scale(1.1);
+  
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateX(50%);
+}
+h1{
+    color: white;
+    margin: 14px 0px 14px;
+    font-size: 75px;
+     
+}
+#p{
+     color: rgb(247, 136, 25);
+     font-size: 100px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.newsletter form{
+ width: 300px;
+ max-width: 100%;
+ position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 125%;
+    padding: 14px 120px 14px 15px;
+    border-radius: 30px ;
+    outline: none;
+     border-color: aqua 2px solid;
+} 
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:rgb(247, 136, 25);
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 5px #858585;
+    top: 6px;
+    right: -69px;
+
+}
+.about{
+    width: 100%;
+    padding: 232px;
+    background-color: #000;
+    background-repeat: repeat;
+
+
+}
+.about img{
+    height: auto;
+    width: 400px;
+    
+}
+.about-text{
+    width: 600px;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.amma{
+    transform: translatex(50px);
+    margin-bottom: 5%;
+}
+#a{
+    color: rgb(251, 251, 251);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.z {
+    color:  rgb(247, 136, 25);
+}
+#c{
+    filter: grayscale(50%);
+    color: white;
+    margin-top: 2%;
+    letter-spacing: 1px;
+}
+.g{
+    color: rgb(0, 255, 221);
+    font-size: 200%;
+}
+#b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    border-radius: 30px;
+    background-color:rgb(247, 136, 25) ;
+    color: white;
+     padding: 13px 30px;
+     transition: .4s;
+     border: 2px solid transparent;
+     text-decoration: none;
+     font-weight: bold;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    transform: scale(1);
+}
+.services{
+    background-color: 101010;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.title #tile{
+    color: white;
+    font-size: 60px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#emoji{
+    font-size: 40px;
+   
+}
+#service{
+    font-size: large;
+    color: rgb(247, 136, 25) ;
+    margin-top: 3%;
+}
+#para{
+    color: white;
+    margin-top: 6%;
+    letter-spacing: 1px;
+}
+.button1{
+ border-radius: 30px;
+    background-color:rgb(247, 136, 25) ;
+    color: white;
+     padding: 10px 13px;
+     transition: .4s;
+     border: 2px solid transparent;
+     text-decoration: none;
+     font-weight: bold;
+     margin-top: 4%;
+}
+.button1:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    transform: scale(1);
+}
+.link{
+  display: flex;
+  width: 45px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 10px;
+text-decoration: none;
+ 
+  text-shadow: orange;
+  
+}
+.link:hover {
+   transition: .4s;
+    transform: scale(1.4);
+}
+.name{
+    color: white;
+    transform: translateX(20px);
+    font-size: 150%;
+}
+.head 
+{
+    font-size: 400%;
+    transition: .4s;
+}
+.head:hover{
+    transform: scale(1);
+    text-shadow: orange;
+}
+#letter{
+    font-size: 200%;
+    color:rgb(247, 136, 25) ;
+}
+footer{
+    margin-top: 23%;
+    padding: 13PX 25PX;
+}
+.image{
+    width: 32%;
+    height: auto;
+    margin-top: .5px;
+    margin-left: 930px;
+    transition: .4s;
+cursor: pointer;
+    
+}
+.image:hover{
+    transform: scale(1.1)  ;
+   
+}

@@ -1,0 +1,65 @@
+
+
+
+
+.title #tile{
+    color: white;
+    font-size: 60px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#emoji{
+    font-size: 40px;
+    color: white;
+   
+}
+#service{
+    font-size: large;
+    color: rgb(247, 136, 25) ;
+    margin-top: 3%;
+}
+#para{
+    color: white;
+    margin-top: 6%;
+    letter-spacing: 1px;
+}
+.button1{
+ border-radius: 30px;
+    background-color:rgb(247, 136, 25) ;
+    color: white;
+     padding: 10px 13px;
+     transition: .4s;
+     border: 2px solid transparent;
+     text-decoration: none;
+     font-weight: bold;
+     margin-top: 10%;
+}
+.button1:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+    transform: scale(1);
+}
+#a{
+    font-size: 150%;
+    color: rgb(247, 136, 25);
+}
